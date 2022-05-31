@@ -1,0 +1,65 @@
+.bodymainlead {
+  background-size:cover;
+  background-image: url('./BG_Spikes - Gradient.png');
+ }
+
+ @import url(https://fonts.googleapis.com/css?family=Open+Sans:400,600);
+
+ *, *:before, *:after {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+ }
+
+ body {
+   background: #93032f;
+   font-family: 'Open Sans', sans-serif;
+ }
+ table {
+   background: #707070;
+   opacity: 0.80;
+   border-radius: 0.25em;
+   margin: 1em;
+
+ }
+
+ th {
+   border-bottom: 4px solid #FFFFFF !important;
+   color: #FFFFFF;
+   font-size: 17;
+   font-weight: 600;
+   padding: 0.5em 1em;
+   text-align: left;
+   font-weight: bold;
+ }
+ 
+ td {
+   width:fit-content!important;
+   color: #fff;
+   font-weight: 400!important;
+   padding: 0.65em 1em!important;
+ }
+ .disabled td {
+   color: #4F5F64;
+ }
+ tbody tr {
+   transition: backgroundColor 0.25s ease;
+ }
+ tbody tr:hover {
+   background: #014055;
+ }
+
+ .productimage {
+     height: 65px;
+   }
+
+ h1{
+   color: #FFFFFF;
+   font-size: 3em;
+   outline: 4px solid #ec244e;
+   
+   font-weight: 500;
+   text-align: center;
+   font-family: 'akira expanded', sans-serif;
+   }
+

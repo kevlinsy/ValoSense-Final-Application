@@ -1,0 +1,83 @@
+body {
+    background-color:#89CFF0;
+    color:#FFFFFF;
+  }
+  .bodymain {
+    background-size:cover;
+    background-image: url('./BG_Geo-Gradient.png');
+   }
+
+
+  @import url(https://fonts.googleapis.com/css?family=Open+Sans:400,600);
+
+  *, *:before, *:after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  body {
+    background: #93032f;
+    font-family: 'Open Sans', sans-serif;
+  }
+  table {
+    background: #707070;
+    opacity: 0.80;
+    border-radius: 0.25em;
+    border-collapse: collapse;
+    margin: 1em;
+    padding: 1em 1em;
+
+  }
+  th {
+    border-bottom: 4px solid #ec244e;
+    color: #FFFFFF;
+    font-size: 20;
+    font-weight: 600;
+    padding: 0.5em 1em;
+    text-align: center;
+    font-weight: bold;
+  }
+  td {
+    color: #fff;
+    font-weight: 400;
+    padding: 0.5em 3em;
+    font-size: 20;text-align: center;
+  }
+  .disabled td {
+    color: #4F5F64;
+  }
+  tbody tr {
+    transition: background 0.25s ease;
+  }
+  tbody tr:hover {
+    background: #014055;
+  }
+
+
+  .product-image {
+      height: 65px;
+    }
+
+
+  h1{
+    color: #FFFFFF;
+    font-size: 3em;
+    outline: 4px solid #ec244e;
+    outline-color:;
+    font-weight: 500;
+    text-align: center;
+    font-family: 'akira expanded', sans-serif;
+    }
+
+  h3{
+    font-family: 'akira expanded', sans-serif;
+    }
+
+    .title{
+      font-family: 'akira expanded', sans-serif;color:#FFFFFF;font-size: 30;text-align: center;
+      }
+
+
+    
+      
